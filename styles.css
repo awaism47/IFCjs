@@ -1,0 +1,36 @@
+.navbar{
+    display: flex;
+    background-color: aliceblue;
+}
+.navbar-brand{
+    background-color: rgb(148, 148, 148);
+    border-radius: 0.5rem;
+    margin: 1rem;
+    padding: 0.25rem;
+
+}
+.scenes{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.card{
+    margin: 5rem;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#three-canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+#file-input{
+    position: absolute;
+}

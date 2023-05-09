@@ -1,0 +1,23 @@
+{
+  "name": "exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "camera-controls": "^2.3.4",
+    "three": "^0.135.0",
+    "three-mesh-bvh": "^0.5.23",
+    "web-ifc-three": "^0.0.125"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "rollup": "^3.21.3"
+  }
+}
